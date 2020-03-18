@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template-areas:
+            "header header"
+            "aside content"
+            "footer footer";
+    grid-auto-columns: 300px 1fr;
+
+}
+
+.rect{
+    padding: 20px;
+    background-color: #369;
+    border:1px solid red;
+    color:white;
+}
+
+
+header{
+    grid-area: header;
+    background-color: #ccc;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #ccc;
+}
+
+aside{
+    grid-area: aside;
+    background-color: #369;
+}
+
+.content{
+    grid-area: content;
+    border:1px solid #336699;
+}
