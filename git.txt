@@ -1,0 +1,36 @@
+1. git init
+2. git add .
+3. git commit -m"first commit"
+4. git remote add origin https://.......
+5. git push origin master
+___________________________________________________
+
+
+1.  git clone https://.......
+2. git checkout -b mytask
+3. ......
+
+___________________________________________________
+
+1. git checkout master
+2. git pull
+3. git checkout -b tasdk2
+4.............
+5. commit->trello
+
+___________________________________________________
+
+1. git checkout master
+2. git pull
+3. git checkout mytask
+4. git merge master
+5. fix all bugs
+6. commit->trello
+7. git push origin mytask
+8. git checkout master
+9. git merge mytask
+10. git push origin master
+
+____________________________________________________
+
+
